@@ -1,0 +1,74 @@
+/* Slider */
+.slider {
+  margin: 12vh 0;
+}
+.container .slick-prev:before,.container .slick-next:before {
+  color: black;
+}
+.container .slick-dots {
+  bottom: -40px;
+}
+
+
+/* Card */
+.card-slider {
+  margin: auto;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in;
+}
+.card-slider-img-top {
+  max-width: 60%;
+  max-height: 60%;
+}
+.card-slider:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* About */
+.card-avatar {
+  margin: auto;
+  align-items: center;
+
+
+}
+.img-avatar {
+  max-width: 60%;
+  max-height: 60%;
+}
+.avatar-row {
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.typewriter {
+  max-width: fit-content;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .9s step-start infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
