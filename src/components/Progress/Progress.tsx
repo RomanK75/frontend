@@ -6,10 +6,12 @@ type Props = {}
 const listOfNodes = nodes
 const Progress = (props: Props) => {
   return (
-    <div>
-      {nodes.map((node)=>(
-        <ProgressBar key={node.id} title={node.data.title} percentage={node.data.percentage} />
-      ))}
+    <div className='container'>
+      {/* <div className='d-md-flex flex-md-equal w-100 my-md-3 ps-md-3'> */}
+        {nodes.map((node)=>(
+          <ProgressBar key={node.id} title={node.data.title} percentage={node.data.percentage} />
+        ))}
+      {/* </div> */}
     </div>
   )
 }

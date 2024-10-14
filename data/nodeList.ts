@@ -30,7 +30,7 @@ const nodes:NodesType = [{
 }, {
   id: 5,
   data:{  
-    title: 'DJ Rest Framework',
+    title: 'RestAPI',
     nodeImage: './src/assets/drf.png',
     parentsNode: 1,
     text:'Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.',

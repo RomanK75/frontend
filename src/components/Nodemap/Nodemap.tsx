@@ -26,33 +26,27 @@ const Nodemap = (props: Props) => {
       return 1
     } else if (width < 768) {
       return 2
-    } else if (width < 992) {
-      return 3
-    } else if (width < 1600) {
-      return 4
     } else {
-      return 6
+      return 3
     }
   }
 
   const settings:Settings = {
     dots: true,
 
-    speed: 300,
+    speed: 500,
     slidesToShow: AmountOfSlides(),
-    slidesToScroll: 1,
+    slidesToScroll: AmountOfSlides(),
     adaptiveHeight: true,
     infinite: true,
     draggable: false,
     }
 
   return (
-    <div className='container'>
-      <div className='container slider'>
+    <div className='container' >
         <h2>
           My devTools stack
         </h2>
-        
           <div className='row'>
             <Slider {...settings}>
               {nodesList.map((node) => (
@@ -64,8 +58,6 @@ const Nodemap = (props: Props) => {
                 ))}
             </Slider>
           </div>
- 
-        </div>
     </div>
   )
 }

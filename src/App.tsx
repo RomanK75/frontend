@@ -2,8 +2,8 @@ import { useState } from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Nodemap from './components/Nodemap/Nodemap'
 import About from './components/About/About'
-import ProgressBar from './components/ProgressBar/ProgressBar'
 import Progress from './components/Progress/Progress'
+import Reveal from './components/Reveal/Reaveal'
 
 
 
@@ -14,10 +14,10 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
-      <div id = 'main_container' style={{marginTop: '100px', width: '80%', marginLeft: 'auto', marginRight: 'auto'}}>
-        <About></About>
-        <Nodemap></Nodemap>
-        <Progress></Progress>
+      <div id = 'main_container' >
+        <Reveal children={<About></About>}></Reveal>
+        <Reveal children={<Nodemap></Nodemap>}></Reveal>
+        <Reveal children={<Progress></Progress>}></Reveal>
       </div>
     </div>
   )
