@@ -1,9 +1,10 @@
 import { defineConfig } from 'vite'
 
-
 export default defineConfig({
-  build: {
-    assetsDir: 'src/assets',
+  resolve: {
+    alias: {
+      '@assets': './src/assets',
+    },
   },
   base: '/frontend'
 })
