@@ -33,17 +33,22 @@ const Nodemap = (props: Props) => {
 
   const settings:Settings = {
     dots: true,
-
-    speed: 500,
+    speed: 1000,
     slidesToShow: AmountOfSlides(),
     slidesToScroll: AmountOfSlides(),
     adaptiveHeight: true,
     infinite: true,
-    draggable: false,
+    draggable: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: true,
+    pauseOnFocus: true,
+
+
     }
 
   return (
-    <div className='container' >
+      <div className='container slider' >
         <h2>
           My devTools stack
         </h2>
@@ -58,7 +63,8 @@ const Nodemap = (props: Props) => {
                 ))}
             </Slider>
           </div>
-    </div>
+      </div>
+
   )
 }
 

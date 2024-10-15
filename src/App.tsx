@@ -16,7 +16,7 @@ function App() {
       <Navbar></Navbar>
       <div id = 'main_container' >
         <Reveal children={<About></About>}></Reveal>
-        <Reveal children={<Nodemap></Nodemap>}></Reveal>
+
         <Reveal children={<Progress></Progress>}></Reveal>
       </div>
     </div>

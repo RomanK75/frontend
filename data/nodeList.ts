@@ -13,7 +13,7 @@ const nodes:NodesType = [{
   id: 2,
   data:{  
     title: 'Python',
-    nodeImage: './src/assets/python.png',
+    nodeImage: './src/assets/python-240.png',
     childrenNode: [7],
     text: 'Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.',
     percentage: 80
@@ -22,7 +22,7 @@ const nodes:NodesType = [{
   id: 4,
   data:{  
     title: 'React',
-    nodeImage: './src/assets/react.png',
+    nodeImage: './src/assets/react-js.png',
     parentsNode: 1,
     text: 'React lets you build user interfaces out of individual pieces called components. Create your own React components like Thumbnail, LikeButton, and Video. Then combine them into entire screens, pages, and apps.',
     percentage: 70
