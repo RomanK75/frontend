@@ -9,7 +9,7 @@ const Progress = (props: Props) => {
   const jsxElemnt = () => {
     for (const cat of categories) {
       
-    }
+    } 
   }
   return (
     <div className='container'>
