@@ -2,13 +2,13 @@ import React from 'react'
 
 
 type Props = {
-  title : string,
-  percentage : number
+  title?: string,
+  percentage? : number
 }
 
 const ProgressBar = (props: Props) => {
   return (
-    <div className="progress">
+    <div className="progress mt-2">
       <div
         className="progress-bar progress-bar-striped progress-bar-animated bg-primary"
         role="progressbar"

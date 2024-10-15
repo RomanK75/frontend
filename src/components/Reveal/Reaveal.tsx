@@ -16,10 +16,10 @@ const Reveal = ({children,width="100%"}: Props) => {
 
   useEffect(() => {
     if (isInView) {
-      console.log('Is in view')
+
       mainControls.start("visible");
     } else {
-      console.log('Is not in view')
+
       mainControls.start("hidden");
     }
   },[isInView])

@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick-theme.css'
 // types
 import Node from '../Node/Node'
 // data
-import nodes from '../../../data/nodeList'
+import {nodes} from '../../../data/data'
 type Props = {}
 
 

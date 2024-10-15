@@ -2,14 +2,20 @@ type NodeType = {
   id: number,
   data:{  
     title:string,
-    nodeImage: string,
-    parentsNode?: number,
-    childrenNode?: number[],
+    nodeImage?: string,
     text?: string,
-    percentage: number
+    percentage?: number
+
   };
   onClick?: () => void
 }
 type NodesType = NodeType[]
 
-export type { NodeType, NodesType }
+type CategrieType = {
+  id: number,
+  title: string,
+  childrenNodes: number[]
+}
+type CategriesType = CategrieType[]
+
+export type { NodeType, NodesType, CategriesType }

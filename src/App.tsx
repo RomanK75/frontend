@@ -18,7 +18,6 @@ function App() {
         <Reveal children={<About></About>}></Reveal>
         <Reveal children={<TimeLine></TimeLine>}></Reveal>
         <Reveal children={<Progress></Progress>}></Reveal>
-        <Reveal children={<Progress></Progress>}></Reveal>
       </div>
     </div>
   )
