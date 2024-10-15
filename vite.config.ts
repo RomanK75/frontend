@@ -10,9 +10,10 @@ export default defineConfig({
       '@assets': path.resolve(__dirname, './src/assets'),
     },
   },
-  base: '/frontend',
+  base: '/frontend/',
   assetsInclude: ['**/*.png'],
   build: {
+    assetsInlineLimit: 0,
     outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: true,
