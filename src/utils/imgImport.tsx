@@ -1,5 +1,5 @@
 const getImageUrl = (name: string) => {
-  return import.meta.env.PROD ? `./assets/${name}` : `./src/assets/${name}`
+  return new URL(`../assets/${name}`, import.meta.url).href
 }
 
 export default getImageUrl

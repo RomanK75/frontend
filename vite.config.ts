@@ -1,31 +1,38 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tsconfigPaths from 'vite-tsconfig-paths'
-import path from 'path'
+import { resolve } from 'path'
+import fs from 'fs-extra'
 
 export default defineConfig({
-  plugins: [react(), tsconfigPaths()],
+  plugins: [react(), tsconfigPaths(),    {
+    name: 'copy-assets',
+    writeBundle() {
+      fs.copySync('src/assets', 'dist/assets')
+    }
+  }],
   resolve: {
     alias: {
-      '@assets': path.resolve(__dirname, './assets'),
+      '@assets': resolve(__dirname, 'src/assets'),
     },
   },
-  base: '/frontend',
+  base: '/frontend/',
   assetsInclude: ['**/*.png'],
   build: {
-    assetsInlineLimit: 0,
     outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: true,
     rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+      },
       output: {
         assetFileNames: 'assets/[name][extname]'
       }
-    }
+    },
   },
   server: {
     port: 3000,
     open: true,
   },
-  publicDir: 'public',
 })
