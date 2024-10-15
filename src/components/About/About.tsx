@@ -1,9 +1,9 @@
-import React from 'react'
+
 import Nodemap from '../Nodemap/Nodemap'
 
-type Props = {}
 
-const About = (props: Props) => {
+
+const About = () => {
   return (
     <div className="container hero">
       <div className='row'>

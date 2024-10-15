@@ -1,16 +1,11 @@
-import React from 'react'
+
 import ProgressBar from '../../components/ProgressBar/ProgressBar'
 import {categories, data} from '../../../data/data'
-type Props = {}
 
 
-const Progress = (props: Props) => {
-  const numberOfColumns = 2
-  const jsxElemnt = () => {
-    for (const cat of categories) {
-      
-    } 
-  }
+
+const Progress = () => {
+
   return (
     <div className='container'>
       <div className="row mt-5">

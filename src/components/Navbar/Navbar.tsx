@@ -1,9 +1,5 @@
-import React from 'react'
 
-
-type Props = {}
-
-const Navbar = (props: Props) => {
+const Navbar = () => {
 
   return (
     <nav className="navbar fixed-top navbar-dark bg-dark " >

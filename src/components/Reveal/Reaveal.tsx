@@ -1,6 +1,6 @@
-import React,{useEffect,useRef} from 'react'
-import {motion,useAnimation, useInView, useIsPresent} from 'framer-motion'
-import { use } from 'framer-motion/client'
+import {useEffect,useRef} from 'react'
+import {motion,useAnimation, useInView} from 'framer-motion'
+
 
 
 type Props = {

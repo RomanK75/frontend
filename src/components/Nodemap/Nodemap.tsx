@@ -7,11 +7,11 @@ import 'slick-carousel/slick/slick-theme.css'
 import Node from '../Node/Node'
 // data
 import {nodes} from '../../../data/data'
-type Props = {}
 
 
-const Nodemap = (props: Props) => {
-  const [nodesList, setNodesList] = useState(nodes)
+
+const Nodemap = () => {
+  const [nodesList] = useState(nodes)
   // const [pythonNode, setPythonNode] = useState([nodes[1]])
   const [width, setWidth] = useState(window.innerWidth);
 

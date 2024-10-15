@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Navbar from './components/Navbar/Navbar'
 import About from './components/About/About'
 import Progress from './components/Progress/Progress'
@@ -9,8 +8,6 @@ import TimeLine from './components/TimeLine/TimeLine'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
       <Navbar></Navbar>
