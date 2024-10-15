@@ -1,32 +1,35 @@
 import { NodesType,CategriesType } from '../src/types/types'
+// import tsImage from '@assets/typescript.png'
+
+import getImageUrl from '../src/utils/imgImport';
 
 
 const data:NodesType = [{
   id: 1,
   data:{
     title: 'typescript',
-    nodeImage: './src/assets/typescript.png',
+    nodeImage: getImageUrl('typescript.png'),
     percentage: 83,
   }
 },{
   id: 2,
   data : {
     title: 'Python',
-    nodeImage: './src/assets/python-240.png',
+    nodeImage: getImageUrl('python-240.png'),
     percentage: 81,
   }
 }, {
   id: 4,
   data:{  
     title: 'React',
-    nodeImage: './src/assets/react-js.png',
+    nodeImage: getImageUrl('react-js.png'),
     percentage: 78,
   }
 }, {
   id: 5,
   data:{  
     title: 'Rest framework',
-    nodeImage: './src/assets/api.png',
+    nodeImage: getImageUrl('api.png'),
     percentage: 58,
 
   }
@@ -34,7 +37,7 @@ const data:NodesType = [{
   id: 6,
   data:{  
     title: 'Node.js',
-    nodeImage: './src/assets/icons8-node-js-256.png',
+    nodeImage: getImageUrl('node-js.png'),
     percentage: 76,
 
   }
@@ -42,14 +45,14 @@ const data:NodesType = [{
   id: 7,
   data:{  
     title: 'Django',
-    nodeImage: './src/assets/dj.png',
+    nodeImage: getImageUrl('dj.png'),
     percentage: 66,
   }
 }, {
   id: 8,
   data:{  
     title: 'MySQL',
-    nodeImage: './src/assets/mysql.png',
+    nodeImage: getImageUrl('mysql.png'),
     percentage: 75,
 
 
@@ -57,21 +60,20 @@ const data:NodesType = [{
   id: 9,
   data:{  
     title: 'PostgreSQL',
-    nodeImage: './src/assets/psql.png',
+    nodeImage: getImageUrl('psql.png'),
     percentage: 72,
   }
 }, {
   id: 10,
   data:{  
     title: 'Bootstrap',
-    nodeImage: './src/assets/bs5.png',
+    nodeImage: getImageUrl('bs5.png'),
     percentage: 68,
   }
 }, {
   id: 11,
   data:{  
     title: 'PHP',
-    nodeImage: './src/assets/docker.png',
     percentage: 29,
   }
 }, {
