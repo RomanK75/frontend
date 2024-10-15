@@ -40,7 +40,7 @@ const Nodemap = (props: Props) => {
     infinite: true,
     draggable: true,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 3000,
     pauseOnHover: true,
     pauseOnFocus: true,
 
@@ -49,7 +49,7 @@ const Nodemap = (props: Props) => {
 
   return (
       <div className='container slider' >
-        <h2>
+        <h2 className='text-center mt-5 mb-5'>
           My devTools stack
         </h2>
           <div className='row'>

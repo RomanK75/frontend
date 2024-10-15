@@ -4,7 +4,7 @@ const nodes:NodesType = [{
   id: 1,
   data:{
     title: 'TypeScript',
-    nodeImage: './src/assets/ts.png',
+    nodeImage: './src/assets/typescript.png',
     childrenNode: [],
     text: 'TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.',
     percentage: 85
@@ -30,8 +30,8 @@ const nodes:NodesType = [{
 }, {
   id: 5,
   data:{  
-    title: 'RestAPI',
-    nodeImage: './src/assets/drf.png',
+    title: 'Rest framework',
+    nodeImage: './src/assets/api.png',
     parentsNode: 1,
     text:'Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.',
     percentage: 60
@@ -39,8 +39,8 @@ const nodes:NodesType = [{
 }, {
   id: 6,
   data:{  
-    title: 'Next.js',
-    nodeImage: './src/assets/nextJs.png',
+    title: 'Node.js',
+    nodeImage: './src/assets/icons8-node-js-256.png',
     parentsNode: 1,
     text:'The React Framework for the Web. Used by some of the world\'s largest companies, Next.js enables you to create high-quality web applications with the power of React components.',
     percentage: 50
@@ -49,7 +49,7 @@ const nodes:NodesType = [{
   id: 7,
   data:{  
     title: 'Django',
-    nodeImage: './src/assets/django.png',
+    nodeImage: './src/assets/dj.png',
     parentsNode: 2,
     text:'Vite is a fast and minimalistic web framework for building modern web applications.',
     percentage: 68

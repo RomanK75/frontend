@@ -18,7 +18,10 @@ const Reveal = ({children,width="100%"}: Props) => {
     if (isInView) {
       console.log('Is in view')
       mainControls.start("visible");
-    } 
+    } else {
+      console.log('Is not in view')
+      mainControls.start("hidden");
+    }
   },[isInView])
   return (
     <div ref={ref} style={{position: "relative",width,overflow: "hidden"}}>

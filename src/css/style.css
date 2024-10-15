@@ -11,11 +11,11 @@ body {
 }
 
 /* Container */
-.container {
+/* .container {
   justify-content: center;
   height: 100vh;
   margin: auto;
-}
+} */
 
 
 
@@ -23,9 +23,11 @@ body {
 
 .container .slick-prev:before,.container .slick-next:before {
   color: white;
+  font-size: 5vh;
+  /* background-image: url("/src/assets/arrow-right.png"); */
 }
 .container .slick-dots {
-  bottom: -40px;
+  bottom: -10px;
 }
 .container .slick-dots  button::before {
   color: white;
@@ -33,6 +35,12 @@ body {
 .container .slick-dots li.slick-active button:before {
   color: white;
 }
+.container .slick-slide div {
+  margin: auto;
+  text-align: center;
+
+}
+
 
 /* Card */
 .devtools {
@@ -46,9 +54,10 @@ body {
   color: white;
 }
 
+
 .card img {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   object-fit: cover;
   margin: auto;
 }
@@ -64,9 +73,13 @@ body {
   display: flex;
   text-align: center;
   flex-direction: column;
-  padding: 15% 0%;
+  padding: 10% 0%;
+  text-align: center;
+
 
 }
+
+
 
 @keyframes typing {
   from { width: 0 }

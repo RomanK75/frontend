@@ -12,12 +12,15 @@
   "dependencies": {
     "@types/react-slick": "^0.23.13",
     "@types/react-transition-group": "^4.4.11",
+    "@types/react-vertical-timeline-component": "^3.3.6",
     "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.5",
     "framer-motion": "^11.11.8",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-multi-carousel": "^2.8.5",
     "react-slick": "^0.30.2",
+    "react-vertical-timeline-component": "^3.6.0",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
