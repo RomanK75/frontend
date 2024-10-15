@@ -1,8 +1,5 @@
-const images = import.meta.glob('@assets/*.png', { eager: true })
-
 const getImageUrl = (name: string) => {
-  const key = Object.keys(images).find(path => path.includes(name))
-  return key ? (images[key] as { default: string }).default : ''
+  return new URL(`../assets/${name}`, import.meta.url).href
 }
 
 export default getImageUrl
