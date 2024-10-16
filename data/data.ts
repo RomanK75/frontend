@@ -120,7 +120,7 @@ const nodes:NodesType = data.filter((node) => [1,2,3,4,5,6,7,8,9,10].includes(no
 const categories:CategriesType = [{
   id : 1,
   title : 'Languages',
-  childrenNodes : [2,3,4,11,12]
+  childrenNodes : [2,1,11,12]
 }, {
   id : 2,
   title : 'Frameworks',

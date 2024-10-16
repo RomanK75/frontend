@@ -24,7 +24,7 @@ const TimeLine = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
+
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           intersectionObserverProps={{ threshold: 0.5 }}
         >
@@ -36,7 +36,6 @@ const TimeLine = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2008 - 2010"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           intersectionObserverProps={{ threshold: 0.5 }}
         >
@@ -47,7 +46,6 @@ const TimeLine = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2006 - 2008"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           intersectionObserverProps={{ threshold: 0.5 }}
         >
@@ -59,7 +57,7 @@ const TimeLine = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="April 2013"
+
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           intersectionObserverProps={{ threshold: 0.5 }}
         >
@@ -71,7 +69,7 @@ const TimeLine = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="November 2012"
+
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           intersectionObserverProps={{ threshold: 0.5 }}
         >
@@ -86,7 +84,7 @@ const TimeLine = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2002 - 2006"
+
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           intersectionObserverProps={{ threshold: 0.5 }}
         >
@@ -98,7 +96,7 @@ const TimeLine = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2002 - 2006"
+
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           intersectionObserverProps={{ threshold: 0.5 }}
         >
@@ -110,7 +108,7 @@ const TimeLine = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2002 - 2006"
+
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           intersectionObserverProps={{ threshold: 0.5 }}
         >

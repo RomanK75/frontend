@@ -41,7 +41,6 @@ const Nodemap = () => {
     draggable: true,
     autoplay: true,
     autoplaySpeed: 3000,
-    pauseOnHover: true,
     pauseOnFocus: true,
 
 

@@ -5,10 +5,11 @@ import Nodemap from '../Nodemap/Nodemap'
 
 const About = () => {
   return (
-    <div className="container hero">
-      <div className='row'>
-          <h1>About</h1>
-          <p className='p-typing'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi tempora nisi suscipit praesentium fugiat aut maiores corrupti, ducimus eveniet vel qui enim ipsa nesciunt inventore non voluptates aliquid quasi.</p>
+    <div className="container hero mt-5">
+      <div className='typewriter-container text-center'>
+          <h1 className=' typewriter line1 mb-4'>Hi there!</h1>
+          <p className=' text-break typewriter line2 mb-2'>Меня зовут Роман</p>
+          <p className=' text-break typewriter line3'>И тут коротко о том что я умею</p>
       </div>
       <div className='row'>
           <Nodemap/>
