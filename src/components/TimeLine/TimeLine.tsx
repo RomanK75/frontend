@@ -24,9 +24,9 @@ const TimeLine = () => {
         >
           <h3 className="vertical-timeline-element-title">ООП</h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Объеектно ориентиированное программиирование
+          Объектно ориентированное программирование
           </h4>
-          <p>Знаю основные прнципы и приминяю их на практике</p>
+          <p>Знаю основные принципы  и применяю  их на практике</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -55,7 +55,7 @@ const TimeLine = () => {
           <h3 className="vertical-timeline-element-title">Web Scraping</h3>
           <h4 className="vertical-timeline-element-subtitle">Selenium, bs4, Puppeteer</h4>
           <p>
-            Знаком с основными фреймворками и умею их применять на практике,есть опыт обхода
+            Знаком с основными фреймворками и умею их применять на практике, есть опыт обхода
             cloudflare
           </p>
         </VerticalTimelineElement>
@@ -69,7 +69,7 @@ const TimeLine = () => {
           <p>
             Django - роутинг, представление(view), работа с ОРМ, настройка админ панели, авторизация
           </p>
-          <p>React - стейт, хуки, конетекст менеджер (Redux & Context API)</p>
+          <p>React - стейт, хуки, конеткст менеджер (Redux & Context API)</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -79,7 +79,7 @@ const TimeLine = () => {
           <h3 className="vertical-timeline-element-title">Bundlers</h3>
           <h4 className="vertical-timeline-element-subtitle">Vite & Webpack</h4>
           <p>
-            Применяю бандлеры в своих проекта, приемущественно vite из-за простоты и скорости, но
+            Применяю бандлеры в своих проектах, преимущественно vite из-за простоты и скорости, но
             так же есть опыт написания .webpackconfig
           </p>
         </VerticalTimelineElement>
@@ -91,7 +91,7 @@ const TimeLine = () => {
           <h3 className="vertical-timeline-element-title">Tests</h3>
           <h4 className="vertical-timeline-element-subtitle">Jest</h4>
           <p>
-            Знаком с test driven development (TDD), умею писать тест и рабоать с покрытием кейсов
+            Знаком с test driven development (TDD), умею писать тесты и работать с покрытием кейсов
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
