@@ -1,17 +1,15 @@
-import { useState,useEffect } from 'react'
-import Slider, { Settings } from 'react-slick'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
+import { useState, useEffect } from 'react';
+import Slider, { Settings } from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 // types
-import Node from '../Node/Node'
+import Node from '../Node/Node';
 // data
-import {nodes} from '../../../data/data'
-
-
+import { nodes } from '../../../data/data';
 
 const Nodemap = () => {
-  const [nodesList] = useState(nodes)
+  const [nodesList] = useState(nodes);
   // const [pythonNode, setPythonNode] = useState([nodes[1]])
   const [width, setWidth] = useState(window.innerWidth);
 
@@ -23,15 +21,15 @@ const Nodemap = () => {
 
   const AmountOfSlides = () => {
     if (width < 576) {
-      return 1
+      return 1;
     } else if (width < 768) {
-      return 2
+      return 2;
     } else {
-      return 3
+      return 3;
     }
-  }
+  };
 
-  const settings:Settings = {
+  const settings: Settings = {
     dots: true,
     speed: 1000,
     slidesToShow: AmountOfSlides(),
@@ -42,29 +40,20 @@ const Nodemap = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     pauseOnFocus: true,
-
-
-    }
+  };
 
   return (
-      <div className='container slider' >
-        <h2 className='text-center mt-5 mb-5'>
-          My devTools stack
-        </h2>
-          <div className='row'>
-            <Slider {...settings}>
-              {nodesList.map((node) => (
-                <Node
-                  key={node.id}
-                  id={node.id}
-                  data = {node.data}
-                  />
-                ))}
-            </Slider>
-          </div>
+    <div className="container slider">
+      <h2 className="text-center mt-5 mb-5">My devTools stack</h2>
+      <div className="row">
+        <Slider {...settings}>
+          {nodesList.map((node) => (
+            <Node key={node.id} id={node.id} data={node.data} />
+          ))}
+        </Slider>
       </div>
+    </div>
+  );
+};
 
-  )
-}
-
-export default Nodemap
+export default Nodemap;

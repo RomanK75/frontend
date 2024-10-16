@@ -1,8 +1,6 @@
-import { NodeType } from '../../types/types'
+import { NodeType } from '../../types/types';
 
-
-
-const Node = ({data,onClick}: NodeType) => {
+const Node = ({ data, onClick }: NodeType) => {
   return (
     <div className="card devtools" onClick={() => onClick?.()}>
       <img className="card-img-top " src={data.nodeImage} alt="Title" />
@@ -10,9 +8,7 @@ const Node = ({data,onClick}: NodeType) => {
         <h4 className="card-title">{data.title}</h4>
       </div>
     </div>
-    
-    
-  )
-}
+  );
+};
 
-export default Node
+export default Node;

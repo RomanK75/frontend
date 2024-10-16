@@ -1,10 +1,7 @@
-
-
-
 type Props = {
-  title?: string,
-  percentage? : number
-}
+  title?: string;
+  percentage?: number;
+};
 
 const ProgressBar = (props: Props) => {
   return (
@@ -12,7 +9,7 @@ const ProgressBar = (props: Props) => {
       <div
         className="progress-bar progress-bar-striped progress-bar-animated bg-primary"
         role="progressbar"
-        style={{width: props.percentage + "%"}}
+        style={{ width: props.percentage + '%' }}
         aria-valuenow={25}
         aria-valuemin={0}
         aria-valuemax={100}
@@ -20,9 +17,7 @@ const ProgressBar = (props: Props) => {
         {props.title}
       </div>
     </div>
-    
-    
-  )
-}
+  );
+};
 
-export default ProgressBar
+export default ProgressBar;
