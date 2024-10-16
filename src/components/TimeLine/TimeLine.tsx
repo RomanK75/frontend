@@ -69,7 +69,7 @@ const TimeLine = () => {
           <p>
             Django - роутинг, представление(view), работа с ОРМ, настройка админ панели, авторизация
           </p>
-          <p>React - стейт, хуки, конеткст менеджер (Redux & Context API)</p>
+          <p>React - стейт, хуки, контекст менеджер (Redux & Context API)</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
