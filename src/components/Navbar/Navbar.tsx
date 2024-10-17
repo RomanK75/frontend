@@ -14,7 +14,7 @@ const Navbar = () => {
               className="rounded mx-auto d-block"
               style={{ width: '25px' }}
             />
-            <h6>Telegram</h6>
+            <h6>@mytth_75</h6>
           </a>
           <a
             id="whatsapp-link"
@@ -36,14 +36,6 @@ const Navbar = () => {
               style={{ width: '25px' }}
             />
             <h6>Github</h6>
-          </a>
-          <a href="https://mytth75@gmail.com" target="_blank" className="nav-link mx-2">
-            <img
-              src={getImageUrl('mail.png')}
-              className="rounded mx-auto d-block"
-              style={{ width: '25px' }}
-            />
-            <h6>E-mail</h6>
           </a>
           <a
             href="https://novosibirsk.hh.ru/resume/5b946b5aff0c8cbaf70039ed1f7158655a5452"
