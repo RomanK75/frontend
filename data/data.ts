@@ -80,7 +80,14 @@ const data: NodesType = [
     id: 11,
     data: {
       title: 'PHP',
-      percentage: 29,
+      percentage: 60,
+    },
+  },
+  {
+    id: 17,
+    data: {
+      title: 'Laravel',
+      percentage: 60,
     },
   },
   {
@@ -131,7 +138,7 @@ const categories: CategriesType = [
   {
     id: 2,
     title: 'Frameworks',
-    childrenNodes: [7, 6, 5, 4, 16],
+    childrenNodes: [7, 6, 5, 4, 16,17],
   },
   {
     id: 3,

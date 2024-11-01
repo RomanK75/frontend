@@ -65,9 +65,9 @@ const TimeLine = () => {
           intersectionObserverProps={{ threshold: 0.5 }}
         >
           <h3 className="vertical-timeline-element-title">MVC & SPA</h3>
-          <h4 className="vertical-timeline-element-subtitle">Django & React</h4>
+          <h4 className="vertical-timeline-element-subtitle">Django & React & Laravel</h4>
           <p>
-            Django - роутинг, представление(view), работа с ОРМ, настройка админ панели, авторизация
+            Django,Larvel - роутинг, представление(view), работа с ОРМ, настройка админ панели, авторизация, сессии, формы и т.д.
           </p>
           <p>React - стейт, хуки, контекст менеджер (Redux & Context API)</p>
         </VerticalTimelineElement>
